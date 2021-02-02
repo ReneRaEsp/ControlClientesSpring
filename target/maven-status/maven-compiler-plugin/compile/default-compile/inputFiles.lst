@@ -1,0 +1,13 @@
+/home/rr/Escritorio/Control Clientes/src/main/java/com/domain/cliente/service/ClienteServiceImpl.java
+/home/rr/Escritorio/Control Clientes/src/main/java/com/domain/cliente/Cliente.java
+/home/rr/Escritorio/Control Clientes/src/main/java/com/domain/cliente/dao/UsuarioDao.java
+/home/rr/Escritorio/Control Clientes/src/main/java/com/domain/cliente/ClienteApplication.java
+/home/rr/Escritorio/Control Clientes/src/main/java/com/domain/cliente/web/WebConfig.java
+/home/rr/Escritorio/Control Clientes/src/main/java/com/domain/cliente/service/UsuarioServ.java
+/home/rr/Escritorio/Control Clientes/src/main/java/com/domain/cliente/util/EncriptarPassword.java
+/home/rr/Escritorio/Control Clientes/src/main/java/com/domain/cliente/web/ControladorInicio.java
+/home/rr/Escritorio/Control Clientes/src/main/java/com/domain/cliente/service/ClienteService.java
+/home/rr/Escritorio/Control Clientes/src/main/java/com/domain/cliente/Usuario.java
+/home/rr/Escritorio/Control Clientes/src/main/java/com/domain/cliente/Rol.java
+/home/rr/Escritorio/Control Clientes/src/main/java/com/domain/cliente/web/SecurityConfig.java
+/home/rr/Escritorio/Control Clientes/src/main/java/com/domain/cliente/dao/IClienteDao.java

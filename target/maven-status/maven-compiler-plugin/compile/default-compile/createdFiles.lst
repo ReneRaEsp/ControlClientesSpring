@@ -1,0 +1,13 @@
+com/domain/cliente/Cliente.class
+com/domain/cliente/web/ControladorInicio.class
+com/domain/cliente/dao/UsuarioDao.class
+com/domain/cliente/ClienteApplication.class
+com/domain/cliente/dao/IClienteDao.class
+com/domain/cliente/service/UsuarioServ.class
+com/domain/cliente/service/ClienteServiceImpl.class
+com/domain/cliente/Usuario.class
+com/domain/cliente/service/ClienteService.class
+com/domain/cliente/util/EncriptarPassword.class
+com/domain/cliente/web/WebConfig.class
+com/domain/cliente/Rol.class
+com/domain/cliente/web/SecurityConfig.class
