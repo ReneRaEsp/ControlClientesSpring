@@ -5,6 +5,7 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 import com.domain.cliente.Cliente;
 import com.domain.cliente.service.ClienteService;
+import java.util.List;
 import javax.validation.Valid;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.annotation.AuthenticationPrincipal;
@@ -21,15 +22,15 @@ public class ControladorInicio {
     @GetMapping("/")
     public String Inicio(Model model, @AuthenticationPrincipal User user){
 
-        var usuario = user;
+        User usuario = user;
         model.addAttribute("usuario", usuario);
-        var clientes = serv.listarClientes();
+        List<Cliente> clientes = serv.listarClientes();
         model.addAttribute("clientes", clientes);    
         return "index";
     }
     @GetMapping("/agregar")
     public String agregar(Cliente cliente, Model model, @AuthenticationPrincipal User user){
-        var usuario = user;
+        User usuario = user;
         model.addAttribute("usuario", usuario);
         return "modificar";
     }
@@ -46,7 +47,7 @@ public class ControladorInicio {
     
     @GetMapping("/editar/{idCliente}")
     public String editar(Cliente cliente, Model model, @AuthenticationPrincipal User user){
-        var usuario = user;
+        User usuario = user;
         cliente = serv.encontrarCliente(cliente);
         model.addAttribute("usuario", usuario);
         model.addAttribute("cliente", cliente);
