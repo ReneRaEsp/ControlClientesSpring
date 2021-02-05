@@ -3,7 +3,7 @@
     justify-content: center
     flex-direction: column
     flex-wrap: wrap
-    background: #00050ab2
+    background: #00050ad2
     width: 280px
     height: 270px
     margin: auto
@@ -19,19 +19,38 @@
     display: flex
     justify-content: center
     flex-direction: column
+    float: left
     flex-wrap: wrap
     background: #021529
     opacity: .94
     width: 500px
     height: 340px
-    transform: translate(20px, -100px)
-    padding: 23px
-    border-radius: 10px
+    transform: translate(20px, -699px)
+    padding: 15px
+    border-radius: 7px
     color: #f4f4f4
     box-shadow: 3px 7px 7px 4px #0303039d
     -moz-box-shadow: 3px 7px 7px 4px rgba(3, 3, 3, .4)
     -webkit-box-shadow: 3px 7px 7px 4px rgba(3, 3, 3, .4)
+    transition: 1.3s
+    &:hover
+        transform: translate(20px, -470px)
     p
-        font-size: 14px
+        font-size: 12px
+        .link
+            text-decoration: none
+            color: #f4f4f4
+            transition: 1s
+            &:hover
+                color: #4897f1
     .tituloI
-        font-size: 17px
+        font-size: 12px
+        margin-bottom: -100px
+.sesion2
+    float: right
+    transform: translate(0px, -579px)
+    height: 210px
+    .tituloI
+        margin-bottom: -80px
+    &:hover
+        transform: translate(0px, -470px)

@@ -10,6 +10,10 @@
   overflow: hidden;
 }
 
+.cf {
+  float: right;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -20,7 +24,7 @@
 
 body {
   width: 100%;
-  height: 100%;
+  height: auto;
   display: block;
   background: url("../img/fondo.jpg");
   background-size: 100% 100%;
@@ -30,7 +34,7 @@ body {
 
 .header {
   background: #202950e6;
-  margin-top: 40px;
+  margin-top: 10px;
   border-radius: 14px 14px 0 0;
   display: flex;
   justify-content: center;
@@ -114,7 +118,7 @@ body {
   justify-content: center;
   flex-direction: column;
   flex-wrap: wrap;
-  background: #00050ab2;
+  background: #00050ad2;
   width: 280px;
   height: 270px;
   margin: auto;
@@ -131,24 +135,50 @@ body {
   display: flex;
   justify-content: center;
   flex-direction: column;
+  float: left;
   flex-wrap: wrap;
   background: #021529;
   opacity: 0.94;
   width: 500px;
   height: 340px;
-  transform: translate(20px, -100px);
-  padding: 23px;
-  border-radius: 10px;
+  transform: translate(20px, -699px);
+  padding: 15px;
+  border-radius: 7px;
   color: #f4f4f4;
   box-shadow: 3px 7px 7px 4px #0303039d;
   -moz-box-shadow: 3px 7px 7px 4px rgba(3, 3, 3, 0.4);
   -webkit-box-shadow: 3px 7px 7px 4px rgba(3, 3, 3, 0.4);
+  transition: 1.3s;
+}
+.sesion:hover {
+  transform: translate(20px, -470px);
 }
 .sesion p {
-  font-size: 14px;
+  font-size: 12px;
+}
+.sesion p .link {
+  text-decoration: none;
+  color: #f4f4f4;
+  transition: 1s;
+}
+.sesion p .link:hover {
+  color: #4897f1;
 }
 .sesion .tituloI {
-  font-size: 17px;
+  font-size: 12px;
+  margin-bottom: -100px;
+}
+
+.sesion2 {
+  float: right;
+  transform: translate(0px, -579px);
+  height: 210px;
+}
+.sesion2 .tituloI {
+  margin-bottom: -80px;
+}
+.sesion2:hover {
+  transform: translate(0px, -470px);
 }
 
 /*# sourceMappingURL=estilos.css.map */
